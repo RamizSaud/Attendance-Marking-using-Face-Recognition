@@ -1,0 +1,35 @@
+.attendance-container {
+  background-color: #fef6fc;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.table {
+  background-color: #e55c78;
+  color: #f0d1d7;
+  font-size: 4rem;
+  width: 50vw;
+  min-height: 70vh;
+  border-radius: 2rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+}
+
+.first {
+  color: #fef6fc;
+}
+
+.heading {
+  font-size: 6rem;
+  margin-bottom: 2rem;
+}
+
+.cell {
+}

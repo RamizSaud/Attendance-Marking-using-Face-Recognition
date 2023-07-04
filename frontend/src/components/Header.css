@@ -1,0 +1,28 @@
+.svg {
+  position: absolute;
+}
+
+.header {
+  background-color: #fef6fc;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20rem;
+}
+
+.header__heading {
+  font-family: "Roboto Condensed", sans-serif;
+  width: 40rem;
+  margin-left: 20rem;
+  font-size: 1.5rem;
+  line-height: 5rem;
+}
+
+.header__pic {
+  margin-right: -10rem;
+}
+
+.header__pic-img {
+  width: 50rem;
+}

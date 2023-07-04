@@ -1,0 +1,38 @@
+.class-container {
+  background-color: #fef6fc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.class__heading {
+  font-size: 6rem;
+  text-align: center;
+  /* padding-top: 6rem; */
+}
+
+.class-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logout_btn {
+  background-color: #82145f;
+  color: white;
+  font-size: 3rem;
+  padding: 1rem;
+  width: 30rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.logout_btn:hover {
+  transform: scale(1.01);
+}

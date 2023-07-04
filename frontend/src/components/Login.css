@@ -1,0 +1,81 @@
+.login {
+  background-image: linear-gradient(
+    to left bottom,
+    rgb(238, 151, 209) 0%,
+    rgb(222, 66, 170) 30%,
+    rgb(194, 62, 152) 70%,
+    rgb(106, 4, 73) 100%
+  );
+  height: 100vh;
+}
+
+.login__heading {
+  padding-top: 10rem;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  font-size: 6rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.form-container {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+  font-weight: 100;
+  color: white;
+  background-color: rgba(232, 123, 196, 0.15);
+  width: 40vw;
+  height: 50vh;
+  margin: auto;
+  margin-top: 7.5rem;
+}
+
+.form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  position: relative;
+  margin-bottom: 4rem;
+  width: 40rem;
+  font: inherit;
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 2rem;
+  transition: all 0.2s;
+}
+
+.input:focus {
+  border-bottom: 1px solid black;
+}
+
+.label {
+  margin-bottom: 0.5rem;
+  margin-left: 7rem;
+  align-self: flex-start;
+  font-size: 2rem;
+}
+
+.form-btn {
+  width: 40rem;
+  background-color: #82145f;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 2rem 0;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.form-btn:hover {
+  transform: scale(1.01);
+}
